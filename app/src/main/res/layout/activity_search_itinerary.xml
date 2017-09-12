@@ -18,15 +18,16 @@
             android:layout_marginTop="19dp"
             android:text="@string/depart" />
 
-        <EditText
-            android:id="@+id/editTextSearchDeparture"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignLeft="@+id/textView5"
-            android:layout_alignStart="@+id/textView5"
-            android:layout_below="@+id/textView5"
-            android:ems="10"
-            android:inputType="textPersonName" />
+    <EditText
+        android:id="@+id/editTextSearchDeparture"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView5"
+        android:layout_alignStart="@+id/textView5"
+        android:layout_below="@+id/textView5"
+        android:ems="10"
+        android:hint="@string/hintDepart"
+        android:inputType="textPersonName" />
 
         <TextView
             android:id="@+id/textView7"
@@ -38,15 +39,16 @@
             android:layout_marginTop="16dp"
             android:text="@string/Arrive" />
 
-        <EditText
-            android:id="@+id/editTextSearchDestination"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignLeft="@+id/textView7"
-            android:layout_alignStart="@+id/textView7"
-            android:layout_below="@+id/textView7"
-            android:ems="10"
-            android:inputType="textPersonName" />
+    <EditText
+        android:id="@+id/editTextSearchDestination"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView7"
+        android:layout_alignStart="@+id/textView7"
+        android:layout_below="@+id/textView7"
+        android:ems="10"
+        android:hint="@string/hintArrivee"
+        android:inputType="textPersonName" />
 
         <TextView
             android:id="@+id/textView8"
@@ -58,15 +60,16 @@
             android:layout_marginTop="15dp"
             android:text="@string/date" />
 
-        <EditText
-            android:id="@+id/editTextSearchDate"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignLeft="@+id/textView8"
-            android:layout_alignStart="@+id/textView8"
-            android:layout_below="@+id/textView8"
-            android:ems="10"
-            android:inputType="textPersonName" />
+    <EditText
+        android:id="@+id/editTextSearchDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView8"
+        android:layout_alignStart="@+id/textView8"
+        android:layout_below="@+id/textView8"
+        android:ems="10"
+        android:hint="@string/hintDate"
+        android:inputType="textPersonName" />
 
         <Button
             android:id="@+id/buttonSearch"

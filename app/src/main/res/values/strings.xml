@@ -7,4 +7,7 @@
     <string name="date">Date du Trajet</string>
     <string name="search_button">Rechercher un trajet</string>
     <string name="toast1">Veuillez renseigner un lieu de départ et d\'arrivée</string>
+    <string name="hintDepart">Renseignez votre lieu de départ</string>
+    <string name="hintArrivee">Renseignez votre lieu d\'arrivée</string>
+    <string name="hintDate">Renseignez votre date de trajet</string>
 </resources>
