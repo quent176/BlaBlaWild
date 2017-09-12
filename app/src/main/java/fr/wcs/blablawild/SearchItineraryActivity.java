@@ -30,7 +30,7 @@ public class SearchItineraryActivity extends AppCompatActivity {
             public void onClick(View v) {
 
                 if (editTextDeparture.getText().toString().trim().length() == 0 || editTextArrival.getText().toString().trim().length() == 0) {
-                    Toast.makeText(SearchItineraryActivity.this, "Veuillez renseigner un lieu de départ et d'arrivée", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(SearchItineraryActivity.this, R.string.toast1, Toast.LENGTH_SHORT).show();
                     return;
                 } else {
                         Intent intent = new Intent(SearchItineraryActivity.this, ViewSearchItineraryResultsListActivity.class);

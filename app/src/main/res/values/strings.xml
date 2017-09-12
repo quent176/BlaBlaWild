@@ -6,4 +6,5 @@
     <string name="Arrive">Arrivée</string>
     <string name="date">Date du Trajet</string>
     <string name="search_button">Rechercher un trajet</string>
+    <string name="toast1">Veuillez renseigner un lieu de départ et d\'arrivée</string>
 </resources>
