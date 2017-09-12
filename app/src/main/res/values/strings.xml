@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">BlaBlaWild</string>
+    <string name="action_settings">Settings</string>
+    <string name="search_text">Rechercher</string>
+    <string name="depart">Départ</string>
+    <string name="Arrive">Arrivée</string>
+    <string name="date">Date du Trajet</string>
+    <string name="search_button">Rechercher un trajet</string>
+</resources>
