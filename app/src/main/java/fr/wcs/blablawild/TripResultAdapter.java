@@ -17,7 +17,6 @@ public class TripResultAdapter extends BaseAdapter {
 
     //public constructor
     public TripResultAdapter(Context context, ArrayList<TripResultModel> TripsModel) {
-      //  super(context, 0, TripsModel);
         this.context = context;
         this.TripsModel = TripsModel;
 

@@ -53,7 +53,7 @@ public class ViewSearchItineraryResultsListActivity extends AppCompatActivity {
         mResultsAdapter = new TripResultAdapter(this, results);
 
         ListViewResults.setAdapter(mResultsAdapter);
-        
+
     }
 
 

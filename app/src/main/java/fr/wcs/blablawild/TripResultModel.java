@@ -17,6 +17,7 @@ public class TripResultModel {
         this.prixTransport = prixTransport;
     }
 
+
     public String getNameDriver() {
         return this.nomConducteur;
     }
@@ -27,6 +28,18 @@ public class TripResultModel {
 
     public int getPriceTransport() {
         return prixTransport;
+    }
+
+    public void setNomConducteur(String nomConducteur) {
+        this.nomConducteur = nomConducteur;
+    }
+
+    public void setDateTransport(Date dateTransport) {
+        this.dateTransport = dateTransport;
+    }
+
+    public void setPrixTransport(int prixTransport) {
+        this.prixTransport = prixTransport;
     }
 
 }
