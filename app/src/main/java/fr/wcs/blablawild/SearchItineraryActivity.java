@@ -2,6 +2,7 @@ package fr.wcs.blablawild;
 
 import android.app.DatePickerDialog;
 import android.content.Intent;
+import android.os.Parcelable;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -16,6 +17,7 @@ import java.util.Locale;
 
 public class SearchItineraryActivity extends AppCompatActivity {
 
+    //déclaration variables
     EditText editTextDeparture;
     EditText editTextArrival;
     EditText editTextDate;
@@ -26,11 +28,13 @@ public class SearchItineraryActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_search_itinerary);
 
+        //Link entre layout et java
         editTextDeparture = (EditText) findViewById(R.id.editTextSearchDeparture);
         editTextArrival = (EditText) findViewById(R.id.editTextSearchDestination);
         editTextDate = (EditText) findViewById(R.id.editTextSearchDate);
         buttonSearch = (Button) findViewById(R.id.buttonSearch);
 
+        //Ajout du datepicker pour la date
         editTextDate.setFocusable(false);
 
         final Calendar myCalendar = Calendar.getInstance();
@@ -68,6 +72,7 @@ public class SearchItineraryActivity extends AppCompatActivity {
             }
         });
 
+        //Au clic bouton, afficher toast ou intent vers ViewSearchItinerary
         buttonSearch.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -76,11 +81,9 @@ public class SearchItineraryActivity extends AppCompatActivity {
                     Toast.makeText(SearchItineraryActivity.this, R.string.toast1, Toast.LENGTH_SHORT).show();
                     return;
                 } else {
+                        SearchRequestModel trajet = new SearchRequestModel(editTextDeparture.getText().toString(), editTextArrival.getText().toString(), myCalendar.getTime());
                         Intent intent = new Intent(SearchItineraryActivity.this, ViewSearchItineraryResultsListActivity.class);
-                        String departureCity = editTextDeparture.getText().toString();
-                        String arrivalCity = editTextArrival.getText().toString();
-                        intent.putExtra("departure", departureCity );
-                        intent.putExtra("arrival", arrivalCity );
+                        intent.putExtra("objetrajet", trajet);
                         startActivity(intent);
                     }
                 }
