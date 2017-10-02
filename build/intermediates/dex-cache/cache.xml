@@ -2,49 +2,31 @@
 <items version="2" >
 
     <item
-        is-multidex="true"
-        jar="/home/apprenti/.android/build-cache/ce8b192db5a20265a1461a582cd8d0f7dc2cbf68/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.1"
-        sha1="cddcd0fb93bc70e27325f2f715b2710332004ebb">
-        <dex dex="/home/apprenti/AndroidStudioProjects/BlaBlaWild/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_e2fe6196894a16a52d10562503649f6c36fd6fe4/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/apprenti/AndroidStudioProjects/BlaBlaWild/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.1"
-        sha1="a457a1c30b610c157ab2c0963115d4f81bbf66ce">
-        <dex dex="/home/apprenti/AndroidStudioProjects/BlaBlaWild/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_1dfca2774d144149e024b7fa9d5e951cccb72e12/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/apprenti/.android/build-cache/c045e271937378a5d2ce6b0f446636ccf52ba412/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.1"
-        sha1="6a022bf00ccd0948a8180c505e8e458bbddd43a6">
-        <dex dex="/home/apprenti/AndroidStudioProjects/BlaBlaWild/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_52f9d18405df6a3be2dc328f5deef6a84c2faa05/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
+        is-multidex="false"
         jar="/home/apprenti/.android/build-cache/e973b70502d0b86bfdfd88e87915c0c4a04ec62f/output/jars/classes.jar"
-        jumboMode="true"
+        jumboMode="false"
         optimize="true"
         revision="26.0.1"
         sha1="c4f45092eee6cdf1a5dbd597b2b6819be652ce2e">
-        <dex dex="/home/apprenti/AndroidStudioProjects/BlaBlaWild/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_f0d4c196760d86517f24bec170a41e5a1edac660/classes.dex" />
+        <dex dex="/home/apprenti/AndroidStudioProjects/BlaBlaWild/app/build/intermediates/pre-dexed/debug/classes_f0d4c196760d86517f24bec170a41e5a1edac660.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="/home/apprenti/AndroidStudioProjects/BlaBlaWild/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="/home/apprenti/.android/build-cache/ce8b192db5a20265a1461a582cd8d0f7dc2cbf68/output/jars/classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="26.0.1"
-        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
-        <dex dex="/home/apprenti/AndroidStudioProjects/BlaBlaWild/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_5b31962a36738faba0f1b188bd72987b88e24f8d/classes.dex" />
+        sha1="cddcd0fb93bc70e27325f2f715b2710332004ebb">
+        <dex dex="/home/apprenti/AndroidStudioProjects/BlaBlaWild/app/build/intermediates/pre-dexed/debug/classes_e2fe6196894a16a52d10562503649f6c36fd6fe4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/apprenti/.android/build-cache/c045e271937378a5d2ce6b0f446636ccf52ba412/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="6a022bf00ccd0948a8180c505e8e458bbddd43a6">
+        <dex dex="/home/apprenti/AndroidStudioProjects/BlaBlaWild/app/build/intermediates/pre-dexed/debug/classes_52f9d18405df6a3be2dc328f5deef6a84c2faa05.jar" />
     </item>
 
 </items>
